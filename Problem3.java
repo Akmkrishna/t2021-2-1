@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class Problem3 {
+
+	public static void main(String[] args) {
+Scanner scan=new Scanner(System.in);
+System.out.println("Enter a input x");
+int x=scan.nextInt();
+if(x%2==0) {
+	for(int i=0;i<2*x-1;i++) {
+		if(i%2!=0) {
+			System.out.print(i+" ");
+		}
+	}
+}
+else {
+	for(int i=0;i<2*x;i++) {
+		if(i%2!=0) {
+			System.out.print(i+" ");
+		}
+	}
+}
+	}
+
+}
